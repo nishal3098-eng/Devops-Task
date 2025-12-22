@@ -1,0 +1,42 @@
+
+Task Name: File Concatenation Task
+
+1.Task Description:
+- Create a directory named my_folder
+- Create my_file.txt using vi and add text
+- Create another_file.txt using vi and add text
+- Concatenate my_file.txt into another_file.txt
+- Display the updated content
+- List files and directories
+
+Commands Used:
+1. mkdir my_folder
+2. cd my_folder
+3. vi my_file.txt
+4. vi another_file.txt
+5. cat my_file.txt >> another_file.txt
+6. cat another_file.txt
+7. ls
+8. ls -l
+
+
+
+------------------------------------------------------------
+
+
+Task Name: File Creation Task
+
+2.Task Description:
+- Create 20 .txt files
+- Rename first 5 files to .yml
+- Print the latest created top 5 files among all files
+
+Commands Used:
+1. touch file{1..20}.txt
+2. mv file1.txt file1.yml
+3. mv file2.txt file2.yml
+4. mv file3.txt file3.yml
+5. mv file4.txt file4.yml
+6. mv file5.txt file5.yml
+7. ls -t | head -n 5
+
